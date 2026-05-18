@@ -8,7 +8,7 @@
 
 Safety alignment of LLMs is fragile, fine-tuning on a few benign samples can severely erode safety behaviors. This work makes two key contributions:
  
-1. **Mechanistic Analysis (Parameter Dynamics)**: We uncover why benign fine-tuning degrades safety by tracking parameter trajectories throughout training. We find that **model parameters cumulatively drift toward danger-aligned directions**, progressively undermining safety, even when the training data contains no explicitly harmful content.
+1. **Mechanistic Analysis (Parameter Dynamics)**: We uncover why benign fine-tuning degrades safety by tracking parameter trajectories throughout training. We find that **model parameters cumulatively drift toward danger-aligned directions**, progressively undermining safety, even when the training data contains no explicitly harmful content.（code in ./Safety_mechasim）
 2. **Sample-Level Risk Quantification (SQSD)**: Motivated by the above finding, we propose SQSD which assigns a continuous risk score to training sample by measuring how much its induced parameter update pushes the model toward danger versus safety directions in parameter space.
 <p align="center">
   <img src="./assert/main.png" width="85%">
