@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MODEL_PATH="./models/Qwen3-8B"
+MODEL_PATH="./weight/Qwen3-8B"
 RAW_DATA="./data/Dolly/databricks-dolly-15k.jsonl"
 DANGER_PT="./ProjScore/qwen3/DangerProj_Beaver/scores_15011.pt"
 SAFE_PT="./ProjScore/qwen3/SafeProj_7000_1/scores_15011.pt"

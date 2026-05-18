@@ -4,12 +4,12 @@ export CUDA_VISIBLE_DEVICES="0"
 
 PYTHON_SCRIPT_PATH="./code/projection_grad_vector_scale_qwen3.py"
 MODEL_PATH="./models/Qwen3-8B"
-LORA_PATH="/Qwen3_8b_ckpt/PKU-SafeRlhf-10k-safer_5e-6/checkpoint-7000"
+LORA_PATH="./weight/Diection/PKURLHF-10k_Safety"
 DATA_FILE="./data/Dolly/databricks-dolly-15k.jsonl"
 
 SCALING_OVERRIDE=1 # alpha = scaling_overried/2
 # outputdir
-OUTPUT_DIR="./ProjScore/qwen3/SafeProj_7000_1"
+OUTPUT_DIR="./ProjScore/Dolly/qwen3/SafeProj_7000_1"
 mkdir -p $OUTPUT_DIR
 
 # Data Field Name

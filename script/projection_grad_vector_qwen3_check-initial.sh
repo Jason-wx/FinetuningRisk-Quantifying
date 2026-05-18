@@ -9,8 +9,9 @@ MODEL_PATH="./models/Qwen3-8B"
 DATA_FILE="./data/Dolly/databricks-dolly-15k.jsonl"
 
 # Path to the target Task Vector LoRA
-DIRECTION_PATH="./models/Direction_qwen3/danger/beavertails_unsafe_random3000_5e-6"
-INITIAL_PATH="./models/Initial_qwen3/dolly_subset_5000/checkpoint-5850"
+# DIRECTION_PATH="./weight/Direction/Ageis_Danger"
+DIRECTION_PATH="./weight/Direction/Beaver-Danger"
+INITIAL_PATH="./initial-state/dolly_ckpt_5850"  # Checkpoint with highest sensitivity for Qwen3-8B (Dolly-15k)
 
 # Output directory for the results
 OUTPUT_DIR="./ProjScore/qwen3/DangerProj_Beaver"
