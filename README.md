@@ -1,7 +1,7 @@
 # From Parameter Dynamics to Risk Scoring: Quantifying Sample-Level Safety Degradation in LLM Fine-tuning
 
 > [[Paper]](https://arxiv.org/abs/2605.04572) · [[Weights (Qwen3-8B)]](https://huggingface.co/Wxxxx/SQSD)
-
+> This paper is accepted by ICML2026（Regular）
 ---
 
 ## Overview
